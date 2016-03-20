@@ -1,0 +1,4 @@
+myshell.x: myshell.c
+        gcc -std=c99 -Wall -Wextra -g -o myshell.x myshell.c
+clean:
+        \rm -fr myshell.x
